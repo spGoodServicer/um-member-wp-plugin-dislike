@@ -1,0 +1,173 @@
+/* Dislike users widget styles */
+.um-dislike {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.um-dislike-btn ~ span.dislike_text{
+	display: none
+}
+.um-dislike-btn ~ span.like_text{
+	display: initial
+}
+
+.dislike ~ span.like_text{
+	display: none;
+}
+
+.dislike ~ span.dislike_text{
+	display: initial;
+}
+.um-dislike-user,
+.um-dislike-pic {
+	float: left;
+}
+
+.um-dislike-user {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 3px;
+}
+
+.um-dislike-user.show-all {
+	opacity: 0.8;
+}
+.um-dislike-user.show-all:hover {
+	opacity: 1;
+}
+
+.um-dislike-pic a,
+.um-dislike-pic img {
+	border-radius: 3px !important;
+	display: block;
+	overflow: hidden;
+	max-width: 40px;
+	max-height: 40px;
+	height: auto !important;
+}
+
+.um-dislike-pic a {
+	opacity: 0.9;
+	transition: none;
+}
+.um-dislike-pic a:hover {
+	opacity: 1;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+p.um-dislike-none {
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+
+
+
+/* General styles for the dislike dot */
+.um-dislike-status {
+	cursor: default;
+}
+
+.um-dislike-status i {
+	font-size: 14px;
+}
+
+.um-dislike-status.dislike i {
+	color: #7acf58;
+}
+
+
+/* Styles for Profile Page*/
+.um-profile-meta .um-main-meta .um-name .um-dislike-status i {
+	position: relative;
+	top: -2px;
+}
+
+/* Styles for all Member directory views*/
+.um-members .um-member .um-member-photo a {
+	position: relative;
+}
+
+.um-members .um-member .um-member-photo .um-dislike-status {
+	position: absolute;
+}
+
+
+.um-directory .um-members.um-members-grid .um-member .um-member-photo .um-dislike-status {
+	bottom: -8px;
+	right: 5px;
+}
+
+.um-directory .um-members.um-members-list .um-member .um-member-photo .um-dislike-status,
+.um-directory.uimob800 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status,
+.um-directory.uimob960 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status {
+	bottom: -7px;
+	right: 0;
+}
+
+.um-directory.uimob340 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status,
+.um-directory.uimob500 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status {
+	bottom: -8px;
+	right: 0;
+}
+.um-directory .um-members-wrapper .um-members .um-member .um-member-card .um-member-card-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+a.um-dislike-btn{
+	display:initial !important;
+    border: none !important;
+    color: red !important;
+    padding: 12px 16px !important;
+    text-align: center !important;
+    font-size: 17px !important;
+    cursor: pointer !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+}
+a.um-dislike-btn.dislike{
+	color: blue !important;
+}
+a.um_dislike_ajax {
+	opacity: 0.8;
+	cursor: default;
+	transition: none !important;
+}
+
+a.um_dislike_ajax:before {
+	content: "\f110" !important;
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+a.um_dislike_ajax i{
+	display: none;
+}
+
+a.um_dislike_ajax:before,
+a.um-follow-btn:before,
+a.um-unfollow-btn:before,
+a.um-login-to-follow-btn:before,
+a.um-follow-edit:before {
+	font-family: "FontAwesome";
+	margin-right: 8px;
+	width: 14px;
+	text-align: left;
+	display: inline-block;
+	font-size: 16px;
+	position: relative;
+	left: 0;
+	top: 1px;
+}

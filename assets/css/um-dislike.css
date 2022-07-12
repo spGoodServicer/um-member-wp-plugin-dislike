@@ -1,0 +1,104 @@
+/* Dislike users widget styles */
+.um-dislike {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.um-dislike-user,
+.um-dislike-pic {
+	float: left;
+}
+
+.um-dislike-user {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 3px;
+}
+
+.um-dislike-user.show-all {
+	opacity: 0.8;
+}
+.um-dislike-user.show-all:hover {
+	opacity: 1;
+}
+
+.um-dislike-pic a,
+.um-dislike-pic img {
+	border-radius: 3px !important;
+	display: block;
+	overflow: hidden;
+	max-width: 40px;
+	max-height: 40px;
+	height: auto !important;
+}
+
+.um-dislike-pic a {
+	opacity: 0.9;
+	transition: none;
+}
+.um-dislike-pic a:hover {
+	opacity: 1;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+p.um-dislike-none {
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+
+
+
+/* General styles for the dislike dot */
+.um-dislike-status {
+	cursor: default;
+}
+
+.um-dislike-status i {
+	font-size: 14px;
+}
+
+.um-dislike-status.dislike i {
+	color: #7acf58;
+}
+
+
+/* Styles for Profile Page*/
+.um-profile-meta .um-main-meta .um-name .um-dislike-status i {
+	position: relative;
+	top: -2px;
+}
+
+/* Styles for all Member directory views*/
+.um-members .um-member .um-member-photo a {
+	position: relative;
+}
+
+.um-members .um-member .um-member-photo .um-dislike-status {
+	position: absolute;
+}
+
+
+.um-directory .um-members.um-members-grid .um-member .um-member-photo .um-dislike-status {
+	bottom: -8px;
+	right: 5px;
+}
+
+.um-directory .um-members.um-members-list .um-member .um-member-photo .um-dislike-status,
+.um-directory.uimob800 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status,
+.um-directory.uimob960 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status {
+	bottom: -7px;
+	right: 0;
+}
+
+.um-directory.uimob340 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status,
+.um-directory.uimob500 .um-members.um-members-list .um-member .um-member-photo .um-dislike-status {
+	bottom: -8px;
+	right: 0;
+}

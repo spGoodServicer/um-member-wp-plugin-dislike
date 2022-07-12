@@ -1,0 +1,123 @@
+# Copyright (C) 2022 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Online plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Online 2.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-online\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-02-09T00:23:10+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: um-online\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - Online"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://ultimatemember.com/extensions/online-users/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display online users and show the user online status on your site."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/core/class-online-common.php:52
+#: includes/core/class-online-member-directory.php:107
+#: includes/core/class-online-member-directory.php:224
+msgid "Online"
+msgstr ""
+
+#: includes/core/class-online-common.php:57
+msgid "Show online stats in member directory"
+msgstr ""
+
+#: includes/core/class-online-common.php:132
+#: includes/core/class-online-common.php:135
+msgid "Show my online status?"
+msgstr ""
+
+#: includes/core/class-online-common.php:136
+msgid "Do you want other people to see that you are online?"
+msgstr ""
+
+#: includes/core/class-online-common.php:141
+msgid "Yes"
+msgstr ""
+
+#: includes/core/class-online-common.php:141
+msgid "No"
+msgstr ""
+
+#: includes/core/class-online-common.php:148
+#: includes/core/class-online-common.php:151
+#: includes/core/class-online-member-directory.php:77
+msgid "Online Status"
+msgstr ""
+
+#: includes/core/class-online-member-directory.php:60
+msgid "Hide online stats"
+msgstr ""
+
+#: includes/core/class-online-member-directory.php:106
+msgid "Offline"
+msgstr ""
+
+#: includes/core/um-online-widget.php:16
+msgid "Ultimate Member - Online Users"
+msgstr ""
+
+#: includes/core/um-online-widget.php:18
+msgid "Shows your online users."
+msgstr ""
+
+#: includes/core/um-online-widget.php:70
+msgid "Who is Online"
+msgstr ""
+
+#: includes/core/um-online-widget.php:89
+msgid "Title:"
+msgstr ""
+
+#: includes/core/um-online-widget.php:94
+msgid "Maximum number of users in first view:"
+msgstr ""
+
+#: includes/core/um-online-widget.php:99
+msgid "Show specific community role?"
+msgstr ""
+
+#: includes/core/um-online-widget.php:101
+msgid "All roles"
+msgstr ""
+
+#: templates/nobody.php:15
+msgid "No one is online right now"
+msgstr ""
+
+#: templates/online-marker.php:4
+#: templates/online-text.php:4
+msgid "online"
+msgstr ""
+
+#: templates/online-marker.php:4
+#: templates/online-text.php:4
+msgid "offline"
+msgstr ""
+
+#: um-online.php:50
+#: um-online.php:66
+msgid "The <strong>%s</strong> extension requires the Ultimate Member plugin to be activated to work properly. You can download it <a href=\"https://wordpress.org/plugins/ultimate-member\">here</a>"
+msgstr ""
